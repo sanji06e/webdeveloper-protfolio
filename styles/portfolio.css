@@ -1,0 +1,41 @@
+/* nav related style */
+body{
+    font-family: 'Open Sans', sans-serif; 
+}
+nav{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+}
+/* style for Mary */
+.navtitle {
+font-size: 45px;
+font-style: normal;
+font-weight: 800;
+}
+/* primary text color */
+.primarycolor{
+    color: #FD6E0A;
+}
+/* nav related styles */
+nav>ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: #474747;
+}
+/* primary button style */
+.primarybtn{
+    border-radius: 5px;
+    background: #FD6E0A; 
+    border: 0px;
+    padding: 18px 35px;
+    color: white;
+    font-size: 20px;
+}
