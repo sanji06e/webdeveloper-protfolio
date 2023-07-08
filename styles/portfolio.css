@@ -5,7 +5,8 @@ body{
 nav{
     display: flex;
     align-items: center;
-    /* justify-content: space-around; */
+    justify-content: space-between; 
+    margin: 0px 200px;
 }
 /* style for Mary */
 .navtitle {
@@ -38,4 +39,13 @@ nav a{
     padding: 18px 35px;
     color: white;
     font-size: 20px;
+}
+.header{
+    background-color: #FFF8F3;
+}
+/* banner related style */
+.banner{
+     padding: 30px 30px 30px 230px;
+     display: flex;
+     align-items: center;
 }
