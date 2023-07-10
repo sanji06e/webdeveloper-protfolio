@@ -55,9 +55,9 @@ nav a {
 
 .header {
   background-color: #fff8f3;
-  background-image: url(../images/header_bg.png);
+  background-image: url(../images/header_bg.png), url("../images/developer.png");
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: bottom right, top left;
 }
 /* banner related style */
 .banner {
@@ -206,4 +206,29 @@ main section {
 .downloadcv {
   text-align: center;
   margin: 50px 0px 113px 0px;
+}
+/* footer style */
+footer {
+  display: flex;
+  background: #fff8f3;
+  padding: 130px 230px;
+  gap: 117px;
+}
+.footer-column {
+  width: 50%;
+}
+.contact input[type="text"],
+.contact input[type="email"],
+textarea {
+  display: block;
+  margin-bottom: 24px;
+  padding: 18px 35px;
+  color: #757575;
+  font-size: 16px;
+  line-height: 28px;
+  background-color: white;
+  border: none;
+  width: 100%;
+}
+.social-link a {
 }
